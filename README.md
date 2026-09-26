@@ -1,3 +1,15 @@
+<p align="center">
+  <img src="./assets/readme/hero.gif" width="100%" alt="A personal fork of Microsoft’s practical machine-learning curriculum. Conceptual overview.">
+</p>
+
+# Machine Learning for Beginners · Personal Fork
+
+A personal learning copy of Microsoft’s machine-learning curriculum. Start with the curriculum below, work through the notebooks, and use the exercises to check your understanding.
+
+**Upstream:** [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners). Original authorship, attribution, license information, and learning resources are preserved.
+
+---
+
 [![GitHub license](https://img.shields.io/github/license/microsoft/ML-For-Beginners.svg)](https://github.com/microsoft/ML-For-Beginners/blob/master/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/microsoft/ML-For-Beginners.svg)](https://GitHub.com/microsoft/ML-For-Beginners/graphs/contributors/)
 [![GitHub issues](https://img.shields.io/github/issues/microsoft/ML-For-Beginners.svg)](https://GitHub.com/microsoft/ML-For-Beginners/issues/)
@@ -22,7 +34,7 @@
 
 We have a Discord learn with AI series ongoing, learn more and join us at [Learn with AI Series](https://aka.ms/learnwithai/discord) from 18 - 30 September, 2025. You will get tips and tricks of using GitHub Copilot for Data Science.
 
-![Learn with AI series](/images/3.png)
+![Learn with AI series](./images/3.png)
 
 # Machine Learning for Beginners - A Curriculum
 
@@ -91,7 +103,7 @@ We have chosen two pedagogical tenets while building this curriculum: ensuring t
 
 By ensuring that the content aligns with projects, the process is made more engaging for students and retention of concepts will be augmented. In addition, a low-stakes quiz before a class sets the intention of the student towards learning a topic, while a second quiz after class ensures further retention. This curriculum was designed to be flexible and fun and can be taken in whole or in part. The projects start small and become increasingly complex by the end of the 12-week cycle. This curriculum also includes a postscript on real-world applications of ML, which can be used as extra credit or as a basis for discussion.
 
-> Find our [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), [Translation](TRANSLATIONS.md), and [Troubleshooting](TROUBLESHOOTING.md) guidelines. We welcome your constructive feedback!
+> Find our [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), [translated lessons](translations/), and [Troubleshooting](TROUBLESHOOTING.md) guidelines. We welcome your constructive feedback!
 
 ## Each lesson includes
 
@@ -199,3 +211,10 @@ If you get stuck or have any questions about building AI apps, join:
 If you have product feedback or errors while building visit:
 
 [![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+
+<details>
+<summary>Static overview</summary>
+
+[Open the static SVG](./assets/readme/hero.svg).
+
+</details>

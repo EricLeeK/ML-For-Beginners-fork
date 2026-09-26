@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">ML for Beginners</title>
+  <desc id="desc">A personal fork of Microsoft’s practical machine-learning curriculum. The diagram is a conceptual illustration, not a benchmark or application screenshot.</desc>
+  <defs>
+    <clipPath id="frame">
+      <rect width="1200" height="440" rx="24" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect x="0" y="0" width="1200" height="440" rx="24" fill="#f6f7fb" />
+    <text x="60" y="65" font-family="'SFMono-Regular',Menlo,monospace" font-size="18" font-weight="600" fill="#456cb1" text-anchor="start">MICROSOFT CURRICULUM / PERSONAL FORK</text>
+    <text x="60" y="149" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="74" font-weight="700" fill="#223765" text-anchor="start">ML for Beginners</text>
+    <text x="60" y="204" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="28" font-weight="500" fill="#223765" text-anchor="start">Learn the idea. Work the notebook. Try it yourself.</text>
+    <g id="lesson-0">
+      <rect x="60" y="251" width="326" height="121" rx="12" fill="#dce7f9" />
+      <text x="84" y="295" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="29" font-weight="650" fill="#223765" text-anchor="start">Understand</text>
+      <text x="84" y="337" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="22" font-weight="500" fill="#415674" text-anchor="start">Concepts + sketchnotes</text>
+    </g>
+    <g id="lesson-1">
+      <rect x="437" y="251" width="326" height="121" rx="12" fill="#e9e4f5" />
+      <text x="461" y="295" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="29" font-weight="650" fill="#223765" text-anchor="start">Experiment</text>
+      <text x="461" y="337" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="22" font-weight="500" fill="#415674" text-anchor="start">Python + R notebooks</text>
+    </g>
+    <g id="lesson-2">
+      <rect x="814" y="251" width="326" height="121" rx="12" fill="#efe4c9" />
+      <text x="838" y="295" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="29" font-weight="650" fill="#223765" text-anchor="start">Practice</text>
+      <text x="838" y="337" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="22" font-weight="500" fill="#415674" text-anchor="start">Assignments + quizzes</text>
+    </g>
+    <text x="60" y="410" font-family="'SFMono-Regular',Menlo,monospace" font-size="18" font-weight="600" fill="#456cb1" text-anchor="start">ORIGINAL LESSONS, TRANSLATIONS, AND ATTRIBUTION PRESERVED</text>
+  </g>
+</svg>
