@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/hero.gif" width="100%" alt="A personal fork of Microsoft’s practical machine-learning curriculum. Conceptual overview.">
+  <img src="./assets/readme/hero.gif" width="100%" alt="Microsoft 机器学习课程的个人 fork，用回归、分类与聚类教学示意展示课程内容；保留上游归属。">
 </p>
 
 # Machine Learning for Beginners · Personal Fork

@@ -1,31 +1,104 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
-  <title id="title">ML for Beginners</title>
-  <desc id="desc">A personal fork of Microsoft’s practical machine-learning curriculum. The diagram is a conceptual illustration, not a benchmark or application screenshot.</desc>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Machine Learning for Beginners</title>
+  <desc id="desc">Microsoft 机器学习课程的个人 fork，用回归、分类与聚类教学示意展示课程内容；保留上游归属。</desc>
   <defs>
-    <clipPath id="frame">
-      <rect width="1200" height="440" rx="24" />
+    <clipPath id="canvas">
+      <rect width="1200" height="680" rx="26" />
     </clipPath>
   </defs>
-  <g clip-path="url(#frame)">
-    <rect x="0" y="0" width="1200" height="440" rx="24" fill="#f6f7fb" />
-    <text x="60" y="65" font-family="'SFMono-Regular',Menlo,monospace" font-size="18" font-weight="600" fill="#456cb1" text-anchor="start">MICROSOFT CURRICULUM / PERSONAL FORK</text>
-    <text x="60" y="149" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="74" font-weight="700" fill="#223765" text-anchor="start">ML for Beginners</text>
-    <text x="60" y="204" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="28" font-weight="500" fill="#223765" text-anchor="start">Learn the idea. Work the notebook. Try it yourself.</text>
-    <g id="lesson-0">
-      <rect x="60" y="251" width="326" height="121" rx="12" fill="#dce7f9" />
-      <text x="84" y="295" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="29" font-weight="650" fill="#223765" text-anchor="start">Understand</text>
-      <text x="84" y="337" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="22" font-weight="500" fill="#415674" text-anchor="start">Concepts + sketchnotes</text>
+  <g clip-path="url(#canvas)">
+    <rect x="0" y="0" width="1200" height="680" rx="0" fill="#F4F0E5" />
+    <text x="49" y="43" font-family="Menlo, Consolas, monospace" font-size="18" font-weight="600" fill="#347E78">PERSONAL FORK / MICROSOFT ML FOR BEGINNERS</text>
+    <text x="46" y="118" font-family="Georgia, Songti SC, serif" font-size="62" font-weight="500" fill="#2D443B">Machine Learning</text>
+    <text x="48" y="185" font-family="Georgia, Songti SC, serif" font-size="62" font-weight="500" fill="#2D443B">for Beginners</text>
+    <text x="854" y="99" font-family="Menlo, Consolas, monospace" font-size="28" font-weight="600" fill="#347E78">12 WEEKS</text>
+    <text x="854" y="141" font-family="Menlo, Consolas, monospace" font-size="28" font-weight="600" fill="#347E78">26 LESSONS</text>
+    <text x="855" y="184" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans, sans-serif" font-size="24" font-weight="400" fill="#2D443B">数据 · 笔记 · 练习</text>
+    <text x="52" y="239" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans, sans-serif" font-size="28" font-weight="400" fill="#2D443B">动手画出第一条回归线，再读懂更多模型。</text>
+    <rect x="58" y="281" width="347" height="312" rx="3" fill="#D5D7C7" />
+    <rect x="52" y="275" width="347" height="312" rx="3" fill="#FFFCF3" />
+    <text x="74" y="318" font-family="Menlo, Consolas, monospace" font-size="17" font-weight="500" fill="#347E78">01</text>
+    <text x="74" y="352" font-family="Georgia, Songti SC, serif" font-size="27" font-weight="500" fill="#2D443B">Regression</text>
+    <path d="M83 541 H370 M83 541 V380" fill="none" stroke="#C4CFBB" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="98" cy="521.0" r="4.5" fill="#347E78" />
+    <circle cx="117" cy="518.7113469095905" r="4.5" fill="#347E78" />
+    <circle cx="136" cy="494.05678096729883" r="4.5" fill="#347E78" />
+    <circle cx="155" cy="499.2059578794938" r="4.5" fill="#347E78" />
+    <circle cx="174" cy="487.0060092269022" r="4.5" fill="#347E78" />
+    <circle cx="193" cy="468.1209304278041" r="4.5" fill="#347E78" />
+    <circle cx="212" cy="475.4932610249969" r="4.5" fill="#347E78" />
+    <circle cx="231" cy="454.56135724534397" r="4.5" fill="#347E78" />
+    <circle cx="250" cy="445.0889094013529" r="4.5" fill="#347E78" />
+    <circle cx="269" cy="448.65037452051905" r="4.5" fill="#347E78" />
+    <circle cx="288" cy="423.38401636242344" r="4.5" fill="#347E78" />
+    <circle cx="307" cy="423.4983200318344" r="4.5" fill="#347E78" />
+    <circle cx="326" cy="418.6193942187476" r="4.5" fill="#347E78" />
+    <text x="75" y="571" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans, sans-serif" font-size="20" font-weight="400" fill="#347E78">拟合关系</text>
+    <rect x="431" y="281" width="347" height="312" rx="3" fill="#D5D7C7" />
+    <rect x="425" y="275" width="347" height="312" rx="3" fill="#FFFCF3" />
+    <text x="447" y="318" font-family="Menlo, Consolas, monospace" font-size="17" font-weight="500" fill="#B36D50">02</text>
+    <text x="447" y="352" font-family="Georgia, Songti SC, serif" font-size="27" font-weight="500" fill="#2D443B">Classification</text>
+    <path d="M456 541 H743 M456 541 V380" fill="none" stroke="#C4CFBB" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M461 519 L723 397" fill="none" stroke="#B36D50" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5" />
+    <circle cx="473" cy="403" r="4.5" fill="#347E78" />
+    <circle cx="546" cy="444" r="4.5" fill="#347E78" />
+    <circle cx="619" cy="485" r="4.5" fill="#B36D50" />
+    <circle cx="692" cy="405" r="4.5" fill="#347E78" />
+    <circle cx="519" cy="446" r="4.5" fill="#347E78" />
+    <circle cx="592" cy="487" r="4.5" fill="#B36D50" />
+    <circle cx="665" cy="407" r="4.5" fill="#347E78" />
+    <circle cx="492" cy="448" r="4.5" fill="#347E78" />
+    <circle cx="565" cy="489" r="4.5" fill="#B36D50" />
+    <circle cx="638" cy="409" r="4.5" fill="#347E78" />
+    <circle cx="711" cy="450" r="4.5" fill="#B36D50" />
+    <circle cx="538" cy="491" r="4.5" fill="#B36D50" />
+    <circle cx="611" cy="411" r="4.5" fill="#347E78" />
+    <circle cx="684" cy="452" r="4.5" fill="#B36D50" />
+    <circle cx="511" cy="493" r="4.5" fill="#347E78" />
+    <circle cx="584" cy="413" r="4.5" fill="#347E78" />
+    <circle cx="657" cy="454" r="4.5" fill="#B36D50" />
+    <circle cx="484" cy="495" r="4.5" fill="#347E78" />
+    <circle cx="557" cy="415" r="4.5" fill="#347E78" />
+    <text x="448" y="571" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans, sans-serif" font-size="20" font-weight="400" fill="#B36D50">辨别类别</text>
+    <rect x="804" y="281" width="347" height="312" rx="3" fill="#D5D7C7" />
+    <rect x="798" y="275" width="347" height="312" rx="3" fill="#FFFCF3" />
+    <text x="820" y="318" font-family="Menlo, Consolas, monospace" font-size="17" font-weight="500" fill="#BC9354">03</text>
+    <text x="820" y="352" font-family="Georgia, Songti SC, serif" font-size="27" font-weight="500" fill="#2D443B">Clustering</text>
+    <path d="M829 541 H1116 M829 541 V380" fill="none" stroke="#C4CFBB" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="902.0" cy="463.0" r="4" fill="#BC9354" />
+    <circle cx="923.6148217776368" cy="434.1824133755639" r="4" fill="#BC9354" />
+    <circle cx="870.1227325172531" cy="407.0477462777469" r="4" fill="#BC9354" />
+    <circle cx="927.3973716431728" cy="437.44997153630453" r="4" fill="#BC9354" />
+    <circle cx="896.4215430008646" cy="462.8091777252294" r="4" fill="#BC9354" />
+    <circle cx="884.8296666239861" cy="430.9259990533588" r="4" fill="#BC9354" />
+    <circle cx="932.9010488495769" cy="407.42874003776444" r="4" fill="#BC9354" />
+    <circle cx="873.5978549253919" cy="440.68413618692506" r="4" fill="#BC9354" />
+    <circle cx="912.9860777222367" cy="462.23931183952817" r="4" fill="#BC9354" />
+    <circle cx="914.2000157329581" cy="427.7251140260148" r="4" fill="#BC9354" />
+    <circle cx="873.0214924157881" cy="408.18553455094525" r="4" fill="#BC9354" />
+    <circle cx="932.5371230237663" cy="443.8408251377388" r="4" fill="#BC9354" />
+    <circle cx="885.9427423673417" cy="461.29816970751233" r="4" fill="#BC9354" />
+    <circle cx="895.1439187105316" cy="424.623386876546" r="4" fill="#BC9354" />
+    <circle cx="1053.0" cy="496.0" r="4" fill="#347E78" />
+    <circle cx="1074.6148217776367" cy="467.1824133755639" r="4" fill="#347E78" />
+    <circle cx="1021.1227325172531" cy="440.0477462777469" r="4" fill="#347E78" />
+    <circle cx="1078.3973716431728" cy="470.44997153630453" r="4" fill="#347E78" />
+    <circle cx="1047.4215430008646" cy="495.8091777252294" r="4" fill="#347E78" />
+    <circle cx="1035.829666623986" cy="463.9259990533588" r="4" fill="#347E78" />
+    <circle cx="1083.901048849577" cy="440.42874003776444" r="4" fill="#347E78" />
+    <circle cx="1024.5978549253919" cy="473.68413618692506" r="4" fill="#347E78" />
+    <circle cx="1063.9860777222366" cy="495.23931183952817" r="4" fill="#347E78" />
+    <circle cx="1065.2000157329583" cy="460.7251140260148" r="4" fill="#347E78" />
+    <circle cx="1024.021492415788" cy="441.18553455094525" r="4" fill="#347E78" />
+    <circle cx="1083.5371230237663" cy="476.8408251377388" r="4" fill="#347E78" />
+    <circle cx="1036.9427423673417" cy="494.29816970751233" r="4" fill="#347E78" />
+    <circle cx="1046.1439187105316" cy="457.623386876546" r="4" fill="#347E78" />
+    <text x="821" y="571" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans, sans-serif" font-size="20" font-weight="400" fill="#BC9354">发现分组</text>
+    <text x="51" y="642" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans, sans-serif" font-size="24" font-weight="400" fill="#2D443B">继续探索：NLP · 时间序列 · 强化学习 · 真实应用</text>
+    <g id="regression-fit">
+      <path d="M94 523 L330 396" fill="none" stroke="#347E78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="230" y="386" font-family="Menlo, Consolas, monospace" font-size="19" font-weight="400" fill="#347E78">fit</text>
     </g>
-    <g id="lesson-1">
-      <rect x="437" y="251" width="326" height="121" rx="12" fill="#e9e4f5" />
-      <text x="461" y="295" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="29" font-weight="650" fill="#223765" text-anchor="start">Experiment</text>
-      <text x="461" y="337" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="22" font-weight="500" fill="#415674" text-anchor="start">Python + R notebooks</text>
-    </g>
-    <g id="lesson-2">
-      <rect x="814" y="251" width="326" height="121" rx="12" fill="#efe4c9" />
-      <text x="838" y="295" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="29" font-weight="650" fill="#223765" text-anchor="start">Practice</text>
-      <text x="838" y="337" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="22" font-weight="500" fill="#415674" text-anchor="start">Assignments + quizzes</text>
-    </g>
-    <text x="60" y="410" font-family="'SFMono-Regular',Menlo,monospace" font-size="18" font-weight="600" fill="#456cb1" text-anchor="start">ORIGINAL LESSONS, TRANSLATIONS, AND ATTRIBUTION PRESERVED</text>
   </g>
 </svg>
